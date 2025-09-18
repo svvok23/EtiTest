@@ -32,8 +32,12 @@ object FigmaColors {
     const val ButtonPrimaryActiveBackground = "#2979FF"
     const val ButtonPrimaryDisabledBackground = "#298D8D8D"
 
-    const val Nneutral16 = "#298D8D8D"
-    const val Nneutral10 = "#1A8D8D8D"
-    const val StrokeDisabled = Nneutral16
+    const val Neutral24 = "#3D8D8D8D"
+    const val Neutral16 = "#298D8D8D"
+    const val Neutral10 = "#1A8D8D8D"
+
+    const val StrokeDefault = Neutral24
+    const val StrokeDisabled = Neutral16
+
 
 }

@@ -147,7 +147,6 @@ class VerifyWordsViewModel : ViewModel() {
                 _uiState.update {
                     it.copy(
                         verificationCompleted = true,
-                        verificationStatus = VerifyWordsUiState.VerificationStatus.NotVerified
                     )
                 }
             }

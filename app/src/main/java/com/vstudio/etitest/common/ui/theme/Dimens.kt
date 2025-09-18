@@ -6,6 +6,8 @@ val TopBarHeight = 60.dp
 val TopBarHorizontalPadding = 8.dp
 val TopBarVerticalPadding = 6.dp
 
+val TitleBarIconVerticalPadding = 8.dp
+val TitleBarEmptyIconVerticalPadding = 64.dp
 val TitleBarVerticalPadding = 40.dp
 
 val ButtonHeightDefault = 56.dp
@@ -43,3 +45,7 @@ val ScreenTitlePadding = 30.dp
 val ProgressIndicatorPointSize = 4.dp
 val ProgressIndicatorStrokeWidth = 18.dp
 val ProgressIndicatorCornerRadius = 28.dp
+
+val EtiRoundedTextBadgeHeight = 64.dp
+val EtiRoundedTextBadgeDashLength = 7.dp
+val EtiRoundedTextBadgeDashSpace = 3.dp

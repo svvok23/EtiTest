@@ -76,6 +76,7 @@ import com.vstudio.etitest.common.ui.components.EtiTopAppBar
 import com.vstudio.etitest.common.ui.components.HintChip
 import com.vstudio.etitest.common.ui.components.ScreenTitleBar
 import com.vstudio.etitest.common.ui.components.buttonPrimaryAnimatedColors
+import com.vstudio.etitest.common.ui.theme.TitleBarIconVerticalPadding
 import com.vstudio.etitest.common.ui.theme.figma.icons.ArrowLeft
 import com.vstudio.etitest.common.ui.theme.figma.icons.CopyFilled
 import com.vstudio.etitest.common.ui.theme.figma.icons.QuestionCircle
@@ -122,7 +123,7 @@ fun ManualBackupScreen(
                 .padding(horizontal = ContentHorisontalPaddingDefault),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Spacer(Modifier.height(VerticalPaddingSmall))
+            Spacer(Modifier.height(TitleBarIconVerticalPadding))
 
             Image(
                 painter = WriteDown,
@@ -130,7 +131,7 @@ fun ManualBackupScreen(
                 modifier = Modifier.size(IconSizeLarge)
             )
 
-            Spacer(Modifier.height(VerticalPaddingSmall))
+            Spacer(Modifier.height(TitleBarIconVerticalPadding))
 
             val annotatedSubtitle = buildAnnotatedString {
                 append(stringResource(id = R.string.manual_backup_screen_subtitle_part1))

@@ -42,8 +42,8 @@ val ButtonSecondaryBackground = Color.fromHex(FigmaColors.ButtonSecondaryActiveB
 val ButtonSecondaryIconColor = Color.fromHex(FigmaColors.IconSecondary)
 val ButtonSecondaryTextColor = Color.fromHex(FigmaColors.IconSecondary)
 
-val CardBackgroundColor = Color.fromHex(FigmaColors.Nneutral16)
-val WordsListBackgroundColor = Color.fromHex(FigmaColors.Nneutral10)
+val CardBackgroundColor = Color.fromHex(FigmaColors.Neutral16)
+val WordsListBackgroundColor = Color.fromHex(FigmaColors.Neutral10)
 val WordsListBorderColor = Color.fromHex(FigmaColors.StrokeDisabled)
 
 val ActiveTextColor = Color.fromHex(FigmaColors.Brand)
@@ -60,5 +60,9 @@ val VerifyWordsCorrect = Color.fromHex(FigmaColors.SuccessPrimary)
 val VerifyWordsCorrectBackground = Color.fromHex(FigmaColors.successSecondary)
 val VerifyWordsCorrectBorder = Color.fromHex(FigmaColors.successSecondary)
 
+val OptionWordBackground = Color.fromHex(FigmaColors.Neutral16)
+val OptionWordStrokeBorder = Color.fromHex(FigmaColors.StrokeDefault)
+val OptionWordBorder = Color.fromHex(FigmaColors.Neutral16)
+
 val ProgressIndicatorColor = Color.fromHex(FigmaColors.Brand)
-val ProgressIndicatorBackgroundColor = Color.fromHex(FigmaColors.Nneutral16)
+val ProgressIndicatorBackgroundColor = Color.fromHex(FigmaColors.Neutral16)
