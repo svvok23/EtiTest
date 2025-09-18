@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">EtiTest</string>
+
+    <!-- GENERAL -->
+    <string name="continue_button">Continue</string>
+
+    <!--BACKUP SELECTOR SCREEN-->
+
+    <string name="backup_selector_screen_title">Back up your account</string>
+    <string name="backup_selector_screen_subtitle">Create a backup to ensure you never lose access to your wallet. It\'s the only way to restore your account if you lose your phone or reinstall the app</string>
+    <string name="backup_selector_section_title">Back up your account</string>
+    <string name="backup_selector_alien_backup_title">Alien safe backup</string>
+    <string name="backup_selector_alien_backup_description">Your phrase is encrypted with PIN and securely backed up directly within the Alien TEE Frame service</string>
+    <string name="backup_selector_manual_backup_title">Manual backup</string>
+    <string name="backup_selector_manual_backup_description">Write down your 24-word recovery phrase on paper and store it in a safe place</string>
+    <string name="backup_selector_tag_recommended">Recommended</string>
+    <string name="backup_selector_tag_careful">Careful</string>
+    <string name="backup_selector_what_is_backup_button">What is backup</string>
+
+    <!--MANUAL BACKUP SCREEN-->
+
+    <string name="manual_backup_screen_title">Manual backup</string>
+    <string name="manual_backup_screen_subtitle_part1">Your recovery phrase is the only key to restoring your funds and data. It\'s a unique sequence of</string>
+    <string name="manual_backup_screen_subtitle_part2_bold">24 words</string>
+    <string name="manual_backup_how_it_works_button">How it works</string>
+    <string name="manual_backup_copy_to_clipboard_button">Copy to clipboard</string>
+    <string name="manual_backup_words_copied_message">Words copied to clipboard</string>
+    <string name="manual_backup_continue_button_countdown_text">Continue in</string>
+    <string name="manual_backup_continue_button_countdown_sec">sec</string>
+
+    <!-- VERIFY WORDS SCREEN -->
+
+    <string name="verify_words_screen_title">Wrote it down?</string>
+    <string name="verify_words_screen_description">To ensure your backup safety, select the word for each numbered position</string>
+    <string name="verify_words_choose_word_button_text">Choose word #%1$d</string>
+
+    <!--CONTENT DESCRIPTION-->
+
+    <string name="cd_navigate">Navigate</string>
+    <string name="cd_help_icon">Help information</string>
+    <string name="cd_edit_icon">Edit icon</string>
+    <string name="cd_copy_to_clipboard_icon">Copy to clipboard</string>
+    <string name="cd_backup_icon_preview">Icon Preview</string>
+    <string name="cd_lock_icon">Lock icon</string>
+    <string name="cd_backup_option_icon">Backup option icon</string>
+
+    <string name="cd_correct_selection">Correct selection</string>
+    <string name="cd_incorrect_selection">Incorrect selection</string>
+    <string name="cd_selected_word_indicator">Selected word indicator</string>
+
+</resources>
